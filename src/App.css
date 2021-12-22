@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+.background{
+  background: url('./MyComponent/Images/background.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 85vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.space{
+  letter-spacing: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.loginform{
+  margin: 10vh 0 0 60vh;
+  width: 90vh;
+  padding: 5vh;
+  border-radius: 3vh;
+  box-shadow:  0 0 20px white;
+}
+@media only screen and (max-width: 600px){
+  .loginform{
+    margin: 2vh 0 0 3.3vh;
+    width: 40vh;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 900px){
+  .loginform{
+    margin: 2vh 0 0 3.3vh;
   }
 }
